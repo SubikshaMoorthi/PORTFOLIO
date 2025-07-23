@@ -1,27 +1,24 @@
-/* Reset */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Smooth scrolling */
 html {
   scroll-behavior: smooth;
 }
 
-/* Body and Global Styling */
 body {
   font-family: Arial, sans-serif;
-  background-color: #000;      /* Black background for entire page */
-  color: #fff;                 /* White text */
+  background-color: #000;
+  color: #fff;
 }
 
-/* Navbar Styling */
 .navbar {
   position: sticky;
   top: 0;
-  background-color: #000;      /* Black navbar */
+  background-color: #000;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -30,14 +27,12 @@ body {
   z-index: 1000;
 }
 
-/* Logo */
 .logo {
   font-size: 24px;
   font-weight: bold;
   color: #fff;
 }
 
-/* Navigation Links */
 .nav-links a {
   margin-left: 25px;
   text-decoration: none;
@@ -47,10 +42,9 @@ body {
 }
 
 .nav-links a:hover {
-  color: #00bfff; /* Light blue hover */
+  color: #7788ca;
 }
 
-/* Section Styling */
 .section {
   height: 100vh;
   padding: 60px;
@@ -59,12 +53,11 @@ body {
   justify-content: center;
   font-size: 28px;
   font-weight: bold;
-  background-color: #000;      /* Black background for all sections */
+  background-color: #000; 
   color: #fff;
   scroll-margin-top: 100px;
 }
 
-/* Responsive Navbar */
 @media (max-width: 768px) {
   .navbar {
     flex-direction: column;
