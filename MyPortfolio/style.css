@@ -1,4 +1,4 @@
-
+/* Reset & Base */
 * {
   margin: 0;
   padding: 0;
@@ -15,10 +15,11 @@ body {
   color: #fff;
 }
 
+/* Navbar */
 .navbar {
   position: sticky;
   top: 0;
-  background-color: #000;
+  background-color: #2b2b2b;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -45,6 +46,73 @@ body {
   color: #7788ca;
 }
 
+/* Hero Section */
+.hero-section {
+  height: 100vh;
+  padding: 60px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: linear-gradient(to right, #000, #1a1a1a);
+}
+
+.hero-content {
+  max-width: 700px;
+}
+
+.hero-content h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 20px;
+  margin-bottom: 30px;
+  color: #ccc;
+}
+
+.highlight {
+  color: #7788ca;
+}
+
+/* Social Icons */
+.social-icons {
+  margin: 25px 0;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.social-icons a {
+  font-size: 32px;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #7788ca;
+}
+
+/* Resume Button */
+.resume-btn {
+  margin-top: 10px;
+  background-color: #444;
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 12px 24px;
+  border-radius: 20px;
+  transition: background-color 0.3s ease;
+  display: inline-block;
+}
+
+.resume-btn:hover {
+  background-color: #7788ca;
+  color: #fff;
+}
+
+/* Generic Section Styling */
 .section {
   height: 100vh;
   padding: 60px;
@@ -58,6 +126,7 @@ body {
   scroll-margin-top: 100px;
 }
 
+/* Responsive */
 @media (max-width: 768px) {
   .navbar {
     flex-direction: column;
@@ -74,5 +143,17 @@ body {
 
   .nav-links a {
     margin-left: 0;
+  }
+
+  .hero-content h1 {
+    font-size: 36px;
+  }
+
+  .hero-content p {
+    font-size: 18px;
+  }
+
+  .social-icons a {
+    font-size: 28px;
   }
 }
