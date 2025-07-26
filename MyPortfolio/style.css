@@ -201,6 +201,8 @@ body {
   }
 }
 
+/*About section*/
+
 .about-section {
   background-color: #000;
   color: #ccc;
@@ -231,7 +233,7 @@ body {
 
 .about-content h2 {
   font-size: 40px;
-  color: #fff;
+  color: #7788ca;
   margin-bottom: 20px;
 }
 
@@ -239,4 +241,70 @@ body {
   font-size: 25px;
   line-height: 1.8;
   color: #ccc;
+}
+
+/*Conatct section*/
+
+.contact-section {
+  background-color: #000;
+  color: #ddd;
+  min-height: 100vh;
+  padding: 80px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-section h2 {
+  font-size: 36px;
+  margin-bottom: 60px;
+  color: #7788ca;
+  font-weight: 600;
+  text-shadow: 1px 1px 5px #111;
+}
+
+.contact-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.contact-card {
+  background-color: #111;
+  border: 1px solid #222;
+  padding: 30px 40px;
+  border-radius: 14px;
+  width: 260px;
+  text-align: left;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.03);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 0 25px rgba(255, 255, 255, 0.05);
+}
+
+.label {
+  font-size: 18px;
+  color: #aaa;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.value {
+  font-size: 17px;
+  color: #f1f1f1;
+  word-break: break-word;
+}
+
+.footer {
+  background-color: #000;
+  color: #666;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 15px;
+  border-top: 1px solid #222;
 }
