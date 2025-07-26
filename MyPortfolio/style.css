@@ -249,7 +249,7 @@ body {
   background-color: #000;
   color: #ddd;
   min-height: 100vh;
-  padding: 80px 20px;
+  padding: 100px 20px 60px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -258,7 +258,7 @@ body {
 
 .contact-section h2 {
   font-size: 36px;
-  margin-bottom: 60px;
+  margin-bottom: 50px;
   color: #7788ca;
   font-weight: 600;
   text-shadow: 1px 1px 5px #111;
@@ -266,17 +266,21 @@ body {
 
 .contact-boxes {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
-  gap: 40px;
+  gap: 80px;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  padding: 10px 20px;
 }
 
 .contact-card {
   background-color: #111;
   border: 1px solid #222;
-  padding: 30px 40px;
+  padding: 40px 50px;
   border-radius: 14px;
-  width: 260px;
+  width: 310px;
+  min-height: 150px;
+  flex-shrink: 0;
   text-align: left;
   box-shadow: 0 0 15px rgba(255, 255, 255, 0.03);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -290,7 +294,7 @@ body {
 .label {
   font-size: 18px;
   color: #aaa;
-  margin-bottom: 10px;
+  margin-bottom: 12px;
   font-weight: 500;
 }
 
@@ -307,4 +311,14 @@ body {
   padding: 20px 0;
   font-size: 15px;
   border-top: 1px solid #222;
+  width: 100%;
+}
+
+.value a {
+  color: #f1f1f1;
+  text-decoration: none;
+}
+
+.value a:hover {
+  color: #7788ca;
 }
