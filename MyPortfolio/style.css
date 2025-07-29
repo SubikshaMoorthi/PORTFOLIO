@@ -384,3 +384,75 @@ body {
 /*Projects section*/
 
 /*Certifications section*/
+
+.certifications-section {
+  text-align: center;
+  color: #7788ca;
+  padding: 50px 20px;
+}
+
+.certifications-section h2 {
+  margin-bottom: 30px;
+  font-size: 2.2rem;
+}
+
+.cert-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 30px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.cert-card {
+  position: relative;
+  padding: 20px;
+  color: #fff;
+  border-radius: 12px;
+  background-size: cover;
+  background-position: center;
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: none;
+}
+
+.cert-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 18px #7788ca;
+}
+
+.cert-card h3 {
+  font-size: 1.4rem;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.cert-card p {
+  font-size: 0.85rem;
+  margin-bottom: 15px;
+  color: #ddd;
+}
+
+.download-btn {
+  color: #f03bb2;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 6px 0;
+  transition: color 0.3s ease;
+}
+
+.download-btn:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.python-cert {
+  background-image: url('Files/bg-python.jpg');
+}
+
+.dbms-cert {
+  background-image: url('Files/bg-dbms.jpg');
+}
