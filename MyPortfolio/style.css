@@ -381,8 +381,6 @@ body {
   color: #7788ca;
 }
 
-/*Projects section*/
-
 /*Certifications section*/
 
 .certifications-section {
@@ -473,4 +471,70 @@ body {
 .download-btn {
   position: relative;
   z-index: 1;
+}
+
+/*Projects section*/
+
+.project-section {
+  background-color: #000;
+  color: #fff;
+  min-height: 100vh;
+  padding: 120px 20px 60px;
+  text-align: center;
+}
+
+.project-section .section-title {
+  font-size: 2.4rem;
+  color: #7788ca;
+  margin-bottom: 70px;
+  letter-spacing: 1px;
+}
+
+.project-card {
+  background-color: #111;
+  border: 1px solid #222;
+  border-radius: 16px;
+  padding: 25px 20px;
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: left;
+  box-shadow: 0 0 14px rgba(255, 255, 255, 0.02);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 25px rgba(119, 136, 202, 0.15);
+}
+
+.project-name {
+  font-size: 1.6rem;
+  color: #7788ca;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.project-desc {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #ccc;
+  margin-bottom: 25px;
+}
+
+.project-link {
+  display: inline-block;
+  background-color: #7788ca;
+  color: #fff;
+  padding: 8px 18px;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+
+.project-link:hover {
+  background-color: #5e6fbb;
+  transform: translateY(-2px);
 }
