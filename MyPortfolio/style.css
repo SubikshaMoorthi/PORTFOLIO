@@ -542,7 +542,7 @@ body {
 
 @media (max-width: 480px) {
   .navbar {
-    flex-direction: column;
+    flex-direction: row;
     padding: 15px 20px;
     text-align: center;
   }
@@ -609,7 +609,7 @@ body {
   }
 
   .skills-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: 2fr;
     gap: 30px;
   }
 
