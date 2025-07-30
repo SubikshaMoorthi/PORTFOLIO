@@ -533,7 +533,6 @@ body {
   transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
-
 .project-link:hover {
   background-color: #5e6fbb;
   transform: translateY(-2px);
